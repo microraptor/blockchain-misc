@@ -56,9 +56,9 @@ function gdaxEthUsd() {
 /**
  * Not so simple function to get the ticker of a specified exchange for a specific currency pair.
  *
- * @param {string} exchange The exchange to get ticker from Options: 'GDAX', 'Poloniex', 'Kraken', 'Bittrex', 'Liqui', 'Coinmarketcap', 'Etherscan'.
- * @param {string} type The type of ticker. EG: 'Last', 'Ask', 'Bid', 'High', 'Low', 'Average', 'Volume', 'QuoteVolume'.
- * @param {string} pair The currency pair (eg: 'ETH-USD' for GDAX, 'BTC_ETH' for Poloniex, ''XXBTZEUR' for Kraken, 'wings_btc' for Liqui, 'BTC-WINGS' for Bittrex, 'ethusd' for Etherscan and 'ETHEREUM' for Coinmarketcap).
+ * @param {string} exchange The exchange to get ticker from. Options: 'GDAX', 'Poloniex', 'Kraken', 'Bittrex', 'Liqui', 'Coinmarketcap', 'Etherscan'.
+ * @param {string} type The type of ticker. For example: 'Last', 'Ask', 'Bid', 'High', 'Low', 'Average', 'Volume', 'QuoteVolume'.
+ * @param {string} pair The currency pair. For example: 'ETH-USD' for GDAX, 'BTC_ETH' for Poloniex, ''XXBTZEUR' for Kraken, 'wings_btc' for Liqui, 'BTC-WINGS' for Bittrex, 'ethusd' for Etherscan and 'ETHEREUM' for Coinmarketcap.
  * @return The current ticker.
  * @customfunction
  */
