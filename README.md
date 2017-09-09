@@ -1,8 +1,8 @@
 # blockchain-misc
-Miscellaneous blockchain and crypto stuff
+[microraptor.github.io/blockchain-misc](https://microraptor.github.io/blockchain-misc/) - Miscellaneous blockchain and crypto stuff
 
-## Google Sheets Crypto Market Functions
-[google-sheets-functions.js](google-sheets-functions.js) is Google Apps Script code with several functions as crypto market tools which can be used with Google Sheets.
+## [Google Sheets Crypto Market Functions](https://github.com/microraptor/blockchain-misc/blob/master/google-sheets-functions.js)
+google-sheets-functions.js is Google Apps Script code with several functions as crypto market tools which can be used with Google Sheets.
 
 In Google Sheets click on 'Tools -> Script Editor...' in the menu and save the code there. To get the value of a function simply enter `=functionName(parameter1, parameter2)` in a cell. For example: `=getTicker("GDAX", "last", "ETH-USD")`. If the Spreadsheet is in a locale which uses a comma as decimal mark you, need to use a semicolon as a parameter seperator. Like this: `=getTicker("GDAX"; "last"; "ETH-USD")`.
  
