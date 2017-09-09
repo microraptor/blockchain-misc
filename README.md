@@ -1,6 +1,3 @@
-# blockchain-misc
-[microraptor.github.io/blockchain-misc](https://microraptor.github.io/blockchain-misc/) - Miscellaneous blockchain and crypto stuff
-
 ## [Google Sheets Crypto Market Functions](https://github.com/microraptor/blockchain-misc/blob/master/google-sheets-functions.js)
 google-sheets-functions.js is Google Apps Script code with several functions as crypto market tools which can be used with Google Sheets.
 
