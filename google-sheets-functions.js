@@ -54,7 +54,7 @@ function gdaxEthUsd() {
 }
 
 /**
- * Gets the ticker of a specified exchange fpr a specific currency pair.
+ * Not so simple function to get the ticker of a specified exchange for a specific currency pair.
  *
  * @param {string} exchange The exchange to get ticker from Options: 'GDAX', 'Poloniex', 'Kraken', 'Bittrex', 'Liqui', 'Coinmarketcap', 'Etherscan'.
  * @param {string} type The type of ticker. EG: 'Last', 'Ask', 'Bid', 'High', 'Low', 'Average', 'Volume', 'QuoteVolume'.
